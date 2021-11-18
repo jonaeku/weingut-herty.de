@@ -130,7 +130,7 @@ hr{
     margin: 5px;
 }
 .main-container img {
-    border: rgb(63, 63, 63) solid;
+    border: 2px rgb(63, 63, 63) solid;
     max-width: 500px;
     margin: 10px;
     margin-top: 50px;
