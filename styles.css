@@ -85,7 +85,6 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.5s;
 }
 .nav-menu.active{
     position: fixed;
