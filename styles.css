@@ -226,7 +226,13 @@ table.greyGridTable {
 
 
 
-
+@media (min-width:901px) and (max-width: 1341px) {
+    .main-container img {
+        position: relative;
+        max-width: 30%;
+        left: 1.5%;
+    }
+}
 @media (max-width: 901px) {
     .logo{
         left: 10px;
@@ -294,5 +300,3 @@ table.greyGridTable {
         left: -10px;
     } */
 }
-
-
