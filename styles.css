@@ -27,7 +27,9 @@ hr{
     background-color: rgb(63, 63, 63);
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 .hr-short{
     width: 100px;
     color: rgb(63, 63, 63);
@@ -37,6 +39,7 @@ hr{
     background-color: rgb(63, 63, 63);
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .top-banner{
     /* background-color: rgb(71, 175, 61); */
@@ -116,7 +119,7 @@ hr{
 }
 
 .main-container{
-    margin: 150px 0px 0px 0px ;
+    margin: 150px 0px -30px 0px ;
     display: grid;
     max-width: 100%;
     justify-content: center;
