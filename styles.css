@@ -53,11 +53,11 @@ hr{
 }
 .logo{
     position: relative;
-    left: 25px;
-    width: 320px;
-
+    left: 40px;
+    width: 270px;  ;
+    border-radius: 8px;
     background: rgb(63, 63, 63) url(img/HertyLogo_white.png);
-    box-shadow: 0 4px 5px -2px rgb(63, 63, 63);
+    box-shadow: 0px 0px 10px rgb(63, 63, 63);
 }
 .nav-button{
     position: fixed;
@@ -116,12 +116,16 @@ hr{
     letter-spacing: 2px;
 }
 
+.nav-menu ul li a:hover {
+    color: rgb(181, 62, 62);
+}
+
 .insta {
     max-width: 10%;
 }
 
 .main-container{
-    margin: 150px 0px -30px 0px ;
+    margin: 80px 0px -30px 0px ;
     display: grid;
     max-width: 100%;
     justify-content: center;
@@ -140,6 +144,8 @@ hr{
     /* border: 2px rgb(63, 63, 63) solid; */
     max-width: 500px;
     margin: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     margin-top: 50px;
     border-radius: 8px;
     box-shadow: 0px 0px 15px rgb(194, 194, 194);
@@ -147,6 +153,33 @@ hr{
 .center-text{
     margin: 20px;
 }
+
+#h3 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.marathon {
+    background-color: #EBEBEB;
+    border-radius: 8px;
+    margin: 6.5%;
+}
+
+#titleText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#daniMarathon {
+    width: 30%;
+    border-radius: 8px;
+    margin-right: 5px;
+    margin-left: auto;
+}
+
 .center-text-main{
     text-align: center;
     margin: 20px;
@@ -166,6 +199,8 @@ article {
 .container-3{
     display: flex;
     padding: 30px;
+    justify-content: center;
+    align-items: center;
 }
 .container-3 img {
     margin-top: 0px;
@@ -192,12 +227,10 @@ table td {
     display: none;
 }
 
-.ptable {
-    /* width: 55%; */
-}
 .ptbody {
     text-align: center;
 }
+
 
 
 
@@ -301,7 +334,15 @@ table.greyGridTable {
     .display-web {
         display: none;
     }
-    /* #start-wingut{
-        left: -10px;
-    } */
+    #daniMarathon {
+        width: 80%;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .marathon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
